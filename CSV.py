@@ -21,6 +21,7 @@ w.write(csv_data.to_csv(sep=',',index = False))
 w.close()
 with open(write_csv_files,'w') as write_csv:
     write_csv.write(s.to_csv(sep=','))
+    #for TSV just change the sep from , to tabspace
 
 
 print(csv_data.info(verbose = True))
