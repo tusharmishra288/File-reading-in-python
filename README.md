@@ -1,2 +1,2 @@
-# File-reading-in-python
-Contains reading of different types of files.
+# File-handling-in-python
+Contains reading and writing of different types of files.
